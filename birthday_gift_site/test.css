@@ -1,0 +1,19 @@
+.container {
+  border: 8px solid #016a26;
+  height: 300px;
+
+  display: flex;
+  flex-direction: column; /*切换到column后，justify-content 和 align-items 控制的轴互换。*/
+  justify-content: start; /*start、center、end、space-around，space-evenly，space-between*/
+  align-items: center; /*start、center、end*/
+}
+
+.item {
+  font-size: 20px;
+  background: linear-gradient(#14463d, #016a26);
+  width: 70px;
+  height: 35px;
+  margin: 2px;
+  padding: 20px;
+  border: 2px solid black;
+}

@@ -1,0 +1,91 @@
+body {
+  background: linear-gradient(#a2d2ff, #efb0c9);
+  text-align: center;
+  font-family: "Happy Monkey", cursive;
+  color: #ffffff;
+}
+#header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#age {
+  background: blue;
+  height: 30px;
+  padding: 7px 10px 7px 10px;
+  border-radius: 5px;
+  margin: 10px 0 10px 0;
+}
+#birthday {
+  margin: 0;
+  background: blue;
+  height: 20px;
+  padding: 5px 8px 5px 8px;
+  border-radius: 5px;
+}
+
+#self {
+  width: 300px;
+  border-radius: 50%; /*图形曲化度 0~50%*/
+  border: 8px solid blue;
+}
+
+h1,
+h2,
+h4 {
+  text-shadow: 0 0 5px black;
+}
+
+.gift-section {
+  margin-top: 50px;
+}
+
+.gift-tip {
+  margin-top: 20px;
+}
+
+.gift-cover {
+  margin: 0 auto;
+  width: 400px;
+  height: 400px;
+  border: 6px solid white;
+  border-radius: 10px;
+  background-image: url("gift-cover.jpg");
+  background-size: cover;
+}
+
+#gift-img-happy:hover {
+  background-image: url("gift-image1.webp");
+}
+
+#gift-img-hot:hover {
+  background-image: url("gift-image2.webp");
+}
+
+#gift-img-genius:hover {
+  background-image: url("genius.webp");
+}
+
+#gift-img-badass:hover {
+  background-image: url("badass.webp");
+}
+
+#gift-img-cheers {
+  height: 200px;
+}
+
+#gift-img-cheers:hover {
+  background-image: url("cheers.webp");
+}
+
+#footer {
+  font-size: 20px;
+  font-style: italic;
+  width: 400px;
+  margin: 40px auto 0 auto; /*<p>是段落，不受文本居中属性的控制，所以单独处理居中*/
+}
+
+a {
+  color: white;
+}
